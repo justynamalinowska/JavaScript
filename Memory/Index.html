@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory</title>
+    <meta name="description" content="JS Memory Game" />
+    <meta name="keywords" content="jQuery, game, javascript, memory" />
+    <meta name="author" content="JM" />
+    <link rel="stylesheet" href="Style.css" tyep="text/css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Memory Test</h1>
+      <p>Match similar elements</p>
+      <button onclick="shuffleArray(cards)">Randomize cards</button>
+    </header>
+
+    <main>
+      <article>
+        <div class="board" id="board"></div>
+        <div class="score">Turn counter: 0</div>
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="Script.js"></script>
+      </article>
+    </main>
+  </body>
+</html>
